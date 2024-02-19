@@ -1,3 +1,4 @@
+```javascript
 const name = ['s', 'e', 'l', 'i', 'm'];
 
 let rename = '';
