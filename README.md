@@ -11,6 +11,7 @@ const isRename = (oName) => {
 
     return rename;
 }
+
 const name = ['s', 'e', 'l', 'i', 'm'];
 
 console.log(isRename(name));
@@ -18,5 +19,3 @@ console.log(isRename(name));
 // slime
 // sliem
 ```
-
-#### woo say limit !
