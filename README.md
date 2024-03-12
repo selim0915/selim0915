@@ -1,20 +1,7 @@
 ```javascript
-const isRename = (oName) => {
-    let name = [...oName];
-    let rename = '';
+const isName = (name) => name.split('').sort(() => Math.random() - 0.5).join('');
 
-    for (let i=0; i<oName.length; i++) {
-        const index = Math.floor(Math.random()*name.length);
-        rename += name[index];
-        name.splice(index, 1);
-    }
-
-    return rename;
-}
-
-const name = ['s', 'e', 'l', 'i', 'm'];
-
-console.log(isRename(name));
+console.log(isName('selim'));
 // smile
 // slime
 // sliem
